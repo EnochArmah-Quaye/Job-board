@@ -74,11 +74,11 @@ fetch('data.json')
     document.getElementById("company10").innerHTML= data[10].company;
     document.getElementById("location10").innerHTML= data[10].location;
 
-    document.getElementById("postedAt11").innerHTML= data[0].postedAt;
-    document.getElementById("contract11").innerHTML= data[0].contract;
-    document.getElementById("position11").innerHTML= data[0].position;
-    document.getElementById("company11").innerHTML= data[0].company;
-    document.getElementById("location11").innerHTML= data[0].location;
+    document.getElementById("postedAt11").innerHTML= data[11].postedAt;
+    document.getElementById("contract11").innerHTML= data[11].contract;
+    document.getElementById("position11").innerHTML= data[11].position;
+    document.getElementById("company11").innerHTML= data[11].company;
+    document.getElementById("location11").innerHTML= data[11].location;
 
 })
 .catch(function(err){
