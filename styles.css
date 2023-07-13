@@ -1,6 +1,4 @@
-html {
-   
-}
+
 
 
 
@@ -133,7 +131,117 @@ border-radius: 15px;
 margin: -40px 0 10px 10px;
 }
 .logo-1{
-    padding: 13px 0 0 15px ;
+    padding: 14px 0 0 14px ;
+}
+
+.logo2 {
+    background-color:#34353F ;
+height: 45px;
+width: 48px;
+border-radius: 15px;
+margin: -40px 0 10px 10px;
+}
+.logo-2{
+    padding: 20px 0 0 5px ;
+}
+
+.logo3 {
+    background-color:#2F4FC7 ;
+height: 45px;
+width: 48px;
+border-radius: 15px;
+margin: -40px 0 10px 10px;
+}
+.logo-3{
+    padding: 13px 0 0 8px ;
+}
+
+.logo4 {
+    background-color:#132034 ;
+height: 45px;
+width: 48px;
+border-radius: 15px;
+margin: -40px 0 10px 10px;
+}
+.logo-4{
+    padding: 10px 0 0 12px ;
+}
+
+.logo5 {
+    background-color:#4E1853;
+height: 45px;
+width: 48px;
+border-radius: 15px;
+margin: -40px 0 10px 10px;
+}
+.logo-5{
+    padding: 10px 0 0 12px ;
+}
+
+.logo6 {
+    background-color:#4722C6;
+height: 45px;
+width: 48px;
+border-radius: 15px;
+margin: -40px 0 10px 10px;
+}
+.logo-6{
+    padding: 20px 0 0 7px ;
+}
+
+.logo7 {
+    background-color:#21427D;
+height: 45px;
+width: 48px;
+border-radius: 15px;
+margin: -40px 0 10px 10px;
+}
+.logo-7{
+    padding: 12px 0 0 13px ;
+}
+
+.logo8 {
+    background-color:#F2DECB;
+height: 45px;
+width: 48px;
+border-radius: 15px;
+margin: -40px 0 10px 10px;
+}
+.logo-8{
+    padding: 12px 0 0 13px ;
+}
+
+.logo9 {
+    background-color:#1F1F1F;
+height: 45px;
+width: 48px;
+border-radius: 15px;
+margin: -40px 0 10px 10px;
+}
+.logo-9{
+    padding: 10px 0 0 10px ;
+}
+
+.logo10 {
+    background-color:#37C790;
+height: 45px;
+width: 48px;
+border-radius: 15px;
+margin: -40px 0 10px 10px;
+}
+.logo-10{
+    padding: 20px 0 0 5px ;
+}
+
+.logo11 {
+    background-color:#F16718;
+height: 45px;
+width: 48px;
+border-radius: 15px;
+margin: -40px 0 10px 10px;
+}
+.logo-11{
+    padding: 10px 0 0 12px ;
 }
 
 /* Scoot styles*/
