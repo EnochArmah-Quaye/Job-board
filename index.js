@@ -7,7 +7,7 @@ fetch('data.json')
 .then(function(data){
     let lo= data[0].image;
     
-    document.getElementById("logo").innerHTML= `<img src=${lo} alt='' />`;
+    
     
     document.getElementById("postedAt").innerHTML= data[0].postedAt;
     document.getElementById("contract").innerHTML= data[0].contract;
