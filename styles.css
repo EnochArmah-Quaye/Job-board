@@ -113,3 +113,106 @@ input {
     font-size: 13px;
     font-weight: 700;
 }
+
+
+
+/* Scoot styles*/
+#body {
+    background-color: #F4F6F8;
+}
+.navbar1{
+    background-image: url(images/bg-pattern-header.svg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 160px;
+    
+}
+
+.top-nav1 {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
+}
+
+#log1 {
+    margin: 70px 570px 0 0;
+}
+
+#title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    width: 650px;
+    height: 400px;
+    margin: 70px 0 0 0;
+}
+#title-i{
+    background-color: hsl(36, 87%, 49%);
+    padding: 32px 0 0 0;
+    width: 90px;
+    height: 100%;
+}
+#cw{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#main2 {
+    background-color: white;
+    margin: 100px auto 0 auto;
+    width: 650px;
+    padding: 50px;
+}
+#tc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: gray;
+}
+#posi {
+    font-size: 30px ;
+    font-weight: 700;
+}
+#loca {
+    font-weight: 700 ;
+    font-size: 14px;
+    color:  #5964E0;
+}
+#content-i {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.RW {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+footer {
+    text-align: center; 
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:  80px 0 0 0;
+    height: 70px;
+}
+
+#ft {
+    margin: 10px 350px 0 300px ;
+}
+#fot {
+    font-weight: 700;
+}
+#fotw {
+    margin: -20px 0 0 -97px ;
+    color: gray;
+    font-size: 14px;
+}
