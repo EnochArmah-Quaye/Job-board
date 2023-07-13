@@ -113,6 +113,11 @@ input {
     font-size: 13px;
     font-weight: 700;
 }
+#logo {
+    background-color:hsl(36, 87%, 49%) ;
+    height: 50px;
+    width: 50px;
+}
 
 
 
