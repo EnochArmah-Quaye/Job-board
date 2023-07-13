@@ -5,8 +5,8 @@ fetch('data.json')
     return response.json();
 })
 .then(function(data){
-    let logo1 = data[0].image;
-    document.getElementById("logo").innerHTML= `<img src=${logo1} alt='' />`
+    
+    document.getElementById("logo").innerHTML= `<img src=${data[0].image} alt='' />`;
     
     document.getElementById("postedAt").innerHTML= data[0].postedAt;
     document.getElementById("contract").innerHTML= data[0].contract;
