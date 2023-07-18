@@ -244,6 +244,35 @@ margin: -40px 0 10px 10px;
     padding: 10px 0 0 12px ;
 }
 
+#bt1 {
+    background-color: #5964E0;
+    color: white;
+    width: 123px;
+    height: 40px;
+    margin: -5px 15px 0 0 ;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#bt {
+    background-color: #5964E0;
+    color: white;
+    width: 123px;
+    height: 40px;
+    margin: 0px 15px 50px 0 ;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
 /* Scoot styles*/
 #body {
     background-color: #F4F6F8;
@@ -340,6 +369,77 @@ footer {
     font-weight: 700;
 }
 #fotw {
+    margin: -20px 0 0 -97px ;
+    color: gray;
+    font-size: 14px;
+}
+
+#bt4 {
+    background-color: #5964E0  0.10000000149011612;
+    color: #5964E0;
+    width: 123px;
+    height: 40px;
+    margin: 50px 30px 50px 0 ;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#bt3 {
+    background-color: #5964E0  ;
+    color: white;
+    width: 123px;
+    height: 40px;
+    margin: 50px -22px 50px 0 ;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+/* Blogr.com style */
+#title-2 {
+    background-color: #E54D25;
+    height: 100%;
+    width: 120px
+}
+
+#ft1 {
+    margin: 10px 350px 0 300px ;
+}
+#fot1 {
+    font-weight: 700;
+}
+#fotw1 {
+    margin: -20px 0 0 -97px ;
+    color: gray;
+    font-size: 14px;
+}
+
+
+
+
+
+/* Vector.com styles*/ 
+#title-3 {
+    background-color: #34353F;
+    height: 100%;
+    width: 120px
+}
+
+#ft2 {
+    margin: 10px 350px 0 300px ;
+}
+#fot2 {
+    font-weight: 700;
+}
+#fotw2 {
     margin: -20px 0 0 -97px ;
     color: gray;
     font-size: 14px;

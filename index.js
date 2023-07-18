@@ -5,8 +5,7 @@ fetch('data.json')
     return response.json();
 })
 .then(function(data){
-    let lo= data[0].image;
-    
+   
     
     
     document.getElementById("postedAt").innerHTML= data[0].postedAt;

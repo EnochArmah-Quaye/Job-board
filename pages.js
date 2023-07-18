@@ -11,15 +11,18 @@ fetch('data.json')
     document.getElementById("desc").innerHTML= product[0].description;
     document.getElementById("require").innerHTML= product[0].requirements.content;
     document.getElementById("require-i").innerHTML= product[0].requirements.items[0];
-    document.getElementById("require-ii").innerHTML= product[0].requirements.items[1]
-    document.getElementById("require-iii").innerHTML= product[0].requirements.items[2]
-    document.getElementById("require-iv").innerHTML= product[0].requirements.items[3]
+    document.getElementById("require-ii").innerHTML= product[0].requirements.items[1];
+    document.getElementById("require-iii").innerHTML= product[0].requirements.items[2];
+    document.getElementById("require-iv").innerHTML= product[0].requirements.items[3];
     document.getElementById("what").innerHTML= product[0].role.content;
     document.getElementById("what-i").innerHTML= product[0].role.items[0];
     document.getElementById("what-ii").innerHTML= product[0].role.items[1];
     document.getElementById("what-iii").innerHTML= product[0].role.items[2];
     document.getElementById("what-iv").innerHTML= product[0].role.items[3];
     document.getElementById("fot").innerHTML= product[0].position;
-   
 
+   
+  })
+  .catch(function(err){
+    console.log(err);
   })
