@@ -23,3 +23,6 @@ fetch('data.json')
     document.getElementById("what-iv2").innerHTML = data[2].role.items[3];
     document.getElementById("fot2").innerHTML = data[2].position;
    })
+   .catch(function(err){
+    console.log(err);
+   })
