@@ -84,3 +84,15 @@ fetch('data.json')
 .catch(function(err){
     console.log(err);
 }) 
+
+
+let icon = document.getElementById("icon");
+icon.onclick = function(){
+    document.body.classList.toggle("dark-theme");
+    if(document.body.classList.contains("dark-theme")){
+        icon.src= "images/Group 15 (1).svg";
+    }else{
+        icon.src = "images/Group 15.svg";
+    }
+} 
+

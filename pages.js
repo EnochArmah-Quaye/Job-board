@@ -1,3 +1,6 @@
+
+
+
 fetch('data.json')
  .then(function(response){
     return response.json();
@@ -26,3 +29,14 @@ fetch('data.json')
   .catch(function(err){
     console.log(err);
   })
+
+  
+ let moon = document.getElementById("icona");
+ moon.onclick = function(){
+  document.body.classList.toggle("dark-theme");
+  if(document.body.classList.contains("dark-theme")){
+    moon.src= "images/Group 15 (1).svg";
+  }else{
+    moon.src= "images/Group 15.svg";
+  }
+ }

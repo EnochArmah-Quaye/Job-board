@@ -1,6 +1,24 @@
 
+:root {
+    --first-colour: #19202D;
+    --second-colour: #F4F6F8;
+    --third-colour:#FFFFFF;
+    --fourth-colour: #5964E0  ;
+    --fifth-colour: #5964E0;
+    --sixth-colour: #6E8098; 
+}
+.dark-theme{
+   --first-colour: #FFFFFF;
+   --second-colour: #121721;
+   --third-colour: #19202D; 
+   --fourth-colour: #FFFFFF ;
+   --fifth-colour: #FFFFFF;
+   --sixth-colour: #9DAEC2;
+}
 
-
+a {
+    text-decoration: none;
+}
 
 
 .navbar {
@@ -59,31 +77,43 @@ li {
  
 input {
     border: none;
+    background-color: var(--third-colour);
+}
+
+#icon {
+    margin: 50px -400px 0 0;
+}
+
+#img1 {
+    margin: 10px 0 0 -260px;
 }
 
 .search-bar {
-    background-color: white;
+    background-color: var(--third-colour);
     width: 1020px;
     height: 65px;
     margin: 0 0 -40px 50px;
    border-radius: 5px ;
 }
 
+#FO {
+    font-weight: 700;
+}
+
 #main {
-    background-color: hsl(210, 22%, 96%);
+    background-color: var(--second-colour);
     font-family: "Kumbh sans",sans-serif;
+    color: var(--first-colour);
 }
 
 .form-i {
     margin: 0 10px 0 0;
 }
 
-#bt1 {
-    margin: 0 0 0 -100px;
-}
+
 
 .listing {
-    background-color: white;
+    background-color: var(--third-colour);
     width: 315px;
     display: flex;
     flex-direction: column;
@@ -246,24 +276,26 @@ margin: -40px 0 10px 10px;
 
 #bt1 {
     background-color: #5964E0;
-    color: white;
+    color: #FFFFFF;
     width: 123px;
     height: 40px;
     margin: -5px 15px 0 0 ;
     border-style: none;
     border-radius: 5px;
     font-size: 15px;
+    font-weight: 700;
 }
 
 #bt {
     background-color: #5964E0;
-    color: white;
+    color: #FFFFFF;
     width: 123px;
     height: 40px;
     margin: 0px 15px 50px 0 ;
     border-style: none;
     border-radius: 5px;
     font-size: 15px;
+    font-weight: 700;
 }
 
 
@@ -275,7 +307,8 @@ margin: -40px 0 10px 10px;
 
 /* Scoot styles*/
 #body {
-    background-color: #F4F6F8;
+    background-color: var(--second-colour);
+    color: var(--sixth-colour);
 }
 .navbar1{
     background-image: url(images/bg-pattern-header.svg);
@@ -298,16 +331,25 @@ margin: -40px 0 10px 10px;
     margin: 70px 570px 0 0;
 }
 
+#img2 {
+    margin: 50px 0px -70px -200px;
+}
+
+#icona {
+    margin: 70px -200px -100px 200px;
+}
+
 #title {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: white;
+    background-color: var(--third-colour);
     width: 650px;
     height: 400px;
     margin: 70px 0 0 0;
 }
+
 #title-i{
     background-color: hsl(36, 87%, 49%);
     padding: 32px 0 0 0;
@@ -321,7 +363,7 @@ margin: -40px 0 10px 10px;
 }
 
 #main2 {
-    background-color: white;
+    background-color: var(--third-colour);
     margin: 100px auto 0 auto;
     width: 650px;
     padding: 50px;
@@ -335,6 +377,7 @@ margin: -40px 0 10px 10px;
 #posi {
     font-size: 30px ;
     font-weight: 700;
+    color: var(--first-colour);
 }
 #loca {
     font-weight: 700 ;
@@ -350,11 +393,12 @@ margin: -40px 0 10px 10px;
 .RW {
     font-weight: 700;
     font-size: 18px;
+    color: var(--first-colour);
 }
 
 footer {
     text-align: center; 
-    background-color: white;
+    background-color: var(--third-colour);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -367,16 +411,17 @@ footer {
 }
 #fot {
     font-weight: 700;
+    color: var(--first-colour)
 }
 #fotw {
     margin: -20px 0 0 -97px ;
-    color: gray;
+    color: var(--sixth-colour);
     font-size: 14px;
 }
 
 #bt4 {
     background-color: #5964E0  0.10000000149011612;
-    color: #5964E0;
+    color: var(--fifth-colour);
     width: 123px;
     height: 40px;
     margin: 50px 30px 50px 0 ;
@@ -385,6 +430,12 @@ footer {
     font-size: 15px;
     font-weight: 700;
 }
+
+#bt4 a {
+    text-decoration: none;
+    
+}
+
 
 #bt3 {
     background-color: #5964E0  ;
@@ -560,7 +611,23 @@ footer {
 
 /* Cofferoasters*/
 
+#title-9 {
+    background-color:#4E1853;
+    height: 100%;
+    width: 120px
+}
 
+#ft8 {
+    margin: 10px 350px 0 300px ;
+}
+#fot8 {
+    font-weight: 700;
+}
+#fotw8 {
+    margin: -20px 0 0 -97px ;
+    color: gray;
+    font-size: 14px;
+}
 
 
 
@@ -629,4 +696,9 @@ footer {
     margin: -20px 0 0 -97px ;
     color: gray;
     font-size: 14px;
+}
+
+.listing a {
+    text-decoration: none;
+    color: var(--fourth-color);
 }
