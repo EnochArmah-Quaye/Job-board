@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Kumbh sans',sans-serif;
+}
+
 
 :root {
     --first-colour: #19202D;
@@ -7,6 +21,7 @@
     --fifth-colour: #5964E0;
     --sixth-colour: #6E8098; 
     --seventh-colour: rgba(89, 100, 224, 0.10000000149011612);
+    --eighth-colour:rgba(89, 100, 224, 0.351167231798172);
 }
 .dark-theme{
    --first-colour: #FFFFFF;
@@ -16,6 +31,7 @@
    --fifth-colour: #FFFFFF;
    --sixth-colour: #9DAEC2;
    --seventh-colour: rgba(255, 255, 255, 0.10000000149011612);
+   --eighth-colour: rgba(255, 255, 255, 0.25)
 }
 
 a {
@@ -104,7 +120,7 @@ input {
 
 #main {
     background-color: var(--second-colour);
-    font-family: "Kumbh sans",sans-serif;
+    
     color: var(--first-colour);
 }
 
@@ -349,26 +365,40 @@ margin: -40px 0 10px 10px;
     background-color: var(--third-colour);
     width: 650px;
     height: 400px;
-    margin: 70px 0 0 0;
+    margin: 90px 0 -20px 0;
+    border-radius: 0 5px 5px 5px;
 }
 
 #title-i{
     background-color: hsl(36, 87%, 49%);
-    padding: 32px 0 0 0;
-    width: 90px;
+    padding: 55px 0 0 30px;
+    width: 140px;
     height: 100%;
+    border-bottom-left-radius: 5px;
 }
+#title-i img {
+    width: 80px;
+}
+
+#companyA{
+    font-weight: 700;
+    font-size: 23px;
+    margin: 10px 0 0 0;
+    color: var(--first-colour);
+}
+
 #cw{
     display: flex;
     flex-direction: column;
-    
+    margin: 0 0 0 -220px;
 }
 
 #main2 {
     background-color: var(--third-colour);
-    margin: 100px auto 0 auto;
+    margin: 120px auto 0 auto;
     width: 650px;
     padding: 50px;
+    border-radius: 5px;
 }
 #tc {
     display: flex;
@@ -405,20 +435,21 @@ footer {
     flex-direction: row;
     align-items: center;
     margin:  80px 0 0 0;
-    height: 70px;
+    height: 90px;
 }
 
 #ft {
-    margin: 10px 350px 0 300px ;
+    margin: -20px 270px 0 350px ;
 }
 #fot {
     font-weight: 700;
-    color: var(--first-colour)
+    color: var(--first-colour);
+    font-size: 21px;
 }
 #fotw {
-    margin: -20px 0 0 -97px ;
+    margin: -5px 0 0 -150px ;
     color: var(--sixth-colour);
-    font-size: 14px;
+    font-size: 16px;
 }
 
 
@@ -438,6 +469,11 @@ footer {
     text-decoration: none;
     color: var(--fifth-colour);
     
+} 
+
+#bt4:hover {
+    background-color: var(--eighth-colour);
+   
 }
 
 
@@ -452,6 +488,14 @@ footer {
     border-radius: 5px;
     font-size: 15px;
     font-weight: 700;
+}
+
+#bt3 a {
+    text-decoration: none;
+    color: white;
+}
+#bt3:hover {
+    background-color: rgba(147, 155, 244, 1);
 }
 
 
