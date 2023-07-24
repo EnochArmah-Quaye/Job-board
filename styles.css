@@ -55,10 +55,15 @@ a {
     
 }
 
+#inner-c {
+    display: none;
+}
+
 .listingrow {
     display:flex;
     flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
     
 }
 
@@ -1073,3 +1078,371 @@ footer {
     color: var(--fourth-color);
 }
 
+
+@media only screen and (max-width:768px){
+    .navbar {
+        width: 100%;
+    }
+
+    #top-nav {
+        width: 760px;
+    }
+
+    .search-bar {
+        width: 680px;
+        height: 70px;
+        margin: 0 0 -40px 10px;
+    }
+
+    #icon {
+        margin: 50px 0px 0 -80px;
+    }
+
+    #img1 {
+        margin: 10px -500px 0px 120px;
+    }
+
+    #bt1 {
+        width: 100px;
+    height: 40px;
+    margin: 0px 15px 0px 0 ;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    }
+    
+    .listingrow {
+        display: none;
+    }
+
+#inner-c {
+    display: flex;
+    flex-direction: column;
+}
+
+.listingrow2 {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+input {
+    width: 70px;
+}
+
+
+
+
+/* Scoot styles*/
+
+#img2 {
+    margin: 30px 30px -500px 10px ;
+}
+
+#icona {
+    margin:  30px 0 -120px -180px ;
+}
+
+#ft {
+    margin: 0 290px 0 60px ;
+}
+
+#fot {
+    margin: 0 0 0 0 ;
+    font-size: 20px;
+}
+
+#fotw {
+    margin: 10px 140px 0 0 ;
+}
+
+
+/* Blogr styles */
+
+#ft1 {
+    margin: 0 275px 0 60px ;
+}
+
+#fot1 {
+    margin: 0 0 0 0 ;
+    font-size: 20px;
+}
+
+#fotw1 {
+    margin: 10px 158px 0 0 ;
+}
+
+/* Vector style */
+
+#ft2 {
+    margin: 0 268px 0 60px ;
+}
+
+#fot2 {
+    margin: 0 0 0 0 ;
+    font-size: 20px;
+}
+
+#fotw2 {
+    margin: 10px 162px 0 0 ;
+}
+
+/* Officelite styles */
+
+#ft3 {
+    margin: 0 268px 0 60px ;
+}
+
+#fot3 {
+    margin: 0 0 0 0 ;
+    font-size: 20px;
+}
+
+#fotw3 {
+    margin: 10px 166px 0 0 ;
+}
+
+/* Pod */
+
+#ft4 {
+    margin: 0 280px 0 65px ;
+}
+
+#fot4 {
+    margin: 0 0 0 0 ;
+    font-size: 20px;
+}
+
+#fotw4 {
+    margin: 10px 140px 0 0 ;
+}
+
+/* Creative styles */
+#ft5 {
+    margin: 0 275px 0 60px ;
+}
+
+#fot5 {
+    margin: 0 0 0 0 ;
+    font-size: 20px;
+}
+
+#fotw5 {
+    margin: 10px 155px 0 0 ;
+}
+
+/* Pomodoro styles */
+
+#ft6 {
+    margin: 0 405px 0 65px ;
+}
+
+#fot6 {
+    margin: 0 0 0 0 ;
+    font-size: 20px;
+}
+
+#fotw6 {
+    margin: 10px 25px 0 0 ;
+}
+
+/* Maker styles */
+
+#ft7 {
+    margin: 0 320px 0 65px ;
+}
+
+#fot7 {
+    margin: 0 0 0 0 ;
+    font-size: 20px;
+}
+
+#fotw7 {
+    margin: 10px 103px 0 0 ;
+}
+
+/* Coffeeroaters styles */
+
+#ft8 {
+    margin: 0 270px 0 62px ;
+}
+
+#fot8 {
+    margin: 0 0 0 0 ;
+    font-size: 20px;
+}
+
+#fotw8 {
+    margin: 10px 157px 0 0 ;
+}
+
+/* Mastercraft styles */
+
+#ft9 {
+    margin: 0 285px 0 65px ;
+}
+
+#fot9 {
+    margin: 0 0 0 0 ;
+    font-size: 20px;
+}
+
+#fotw9 {
+    margin: 10px 138px 0 0 ;
+}
+
+/* Crowdfund styles */
+
+#ft10 {
+    margin: 0 340px 0 60px ;
+}
+
+#fot10 {
+    margin: 0 0 0 0 ;
+    font-size: 20px;
+}
+
+#fotw10 {
+    margin: 10px 90px 0 0 ;
+}
+
+/* Typemaster styles */
+
+#ft11 {
+    margin: 0 303px 0 60px ;
+}
+
+#fot11 {
+    margin: 0 0 0 0 ;
+    font-size: 20px;
+}
+
+#fotw11 {
+    margin: 10px 125px 0 0 ;
+}
+
+}
+
+
+@media only screen and (max-width:425px){
+    #inner-c {
+        display: none;
+    }
+
+    .listingrow {
+        display: flex;
+        padding-right:0px ;
+    }
+    
+    .listing{
+        width: 300px;
+        margin-left: 50px;
+    }
+    .search-bar {
+        display: none;
+    }
+
+    .navbar {
+        
+        border-radius: 0px;
+    }
+    #icon {
+        margin: 50px 1030px 0 -500px;
+        width: 85px;
+    }
+
+    #img1 {
+        margin: 10px -60px 0px 700px;
+        width: 100px;
+    }
+
+    #bt {
+        margin: 0 0 50px 0;
+    }
+}
+
+@media only screen and (max-width:375px){
+    #inner-c {
+        display: none;
+    }
+
+    .listingrow {
+        display: flex;
+        padding-right:0px ;
+    }
+    
+    .listing{
+        width: 270px;
+        margin-left: 40px;
+    }
+    .search-bar {
+        display: none;
+    }
+
+    .navbar {
+        
+        border-radius: 0px;
+    }
+    #icon {
+        margin: 50px 1030px 0 -500px;
+        width: 85px;
+    }
+
+    #img1 {
+        margin: 10px -60px 0px 700px;
+        width: 100px;
+    }
+
+    #bt {
+        margin: 0 0 50px 0;
+    }
+}
+
+@media only screen and (max-width:320px){
+   body {
+    width: 320px;
+    
+   }
+   .container {
+    padding: 0 0px 0px -100px ;
+   }
+    #inner-c {
+        display: none;
+    }
+
+    .listingrow {
+        display: flex;
+        padding-right: 0 ;
+
+    }
+    
+    .listing{
+        width: 270px;
+        margin-left: 10px;
+    }
+    .search-bar {
+        display: none;
+    }
+
+    .navbar {
+        
+        border-radius: 0px;
+    }
+
+    #icon {
+        margin: 50px 1030px 0 -500px;
+        width: 85px;
+    }
+
+    #img1 {
+        margin: 10px -60px 0px 700px;
+        width: 100px;
+    }
+
+    #bt {
+        margin: 0 0 50px 0;
+    }
+
+}
